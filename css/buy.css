@@ -1,0 +1,142 @@
+html{
+	height: 100%;
+}
+body{
+	background-color: #1b2838;
+	color: #c6d4df;
+    font-size: 12px;
+    min-height: 100%;
+    height: auto;
+}
+.buy-content{
+	height: 800px;
+	background:  url(../img/body_top1.png) 0 0 no-repeat;
+}
+.buy-head{
+	padding-bottom: 50px;
+	background:  url(../img/cluster_bg_2.png) center bottom no-repeat;
+}
+.buy-title{
+	height: 105px;
+}
+.buy-title>p{
+	float: left;
+	padding-top: 40px;
+}
+.buy-title>p>a{
+	display: inline-block;
+	position: relative;
+	padding: 5px 10px;
+	font-size: 14px;	
+	color: #56707f;
+}
+.buy-title>p .active{
+	background-color: #66c0f4;
+	color: #fff;
+}
+.active:after{
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 32px;
+	bottom: -15px;
+	border: 8px solid transparent;
+	border-top-color: #66c0f4;
+}
+
+.buy-title .zuosanjiao{
+	padding: 0;
+	margin: 0px 10px;
+	width: 0;
+	height: 0;
+	border: 5px solid transparent;
+	border-left-color: #b0aeac;
+	background-color: transparent;
+}
+.buy-title>a{
+	padding-top: 30px;
+	float: right; 
+}
+.buy-body>h2{
+	color: #fff;
+	font-weight: 400;
+}
+.buy-body-left{
+	padding-top: 10px;
+	width: 584px;
+	background: rgba( 0, 0, 0, 0.2 );
+    padding: 16px;
+}
+
+.buy-body-left>p{
+	color: #c6d4df;
+	font-size: 11px;
+	margin-left: 0;
+}
+.buy-body-left>p>a{
+	color: #fff;
+	text-decoration: underline;
+}
+.buy-body-left>p>a:hover{
+	color: #417a9b;
+}
+.buy-body-left>p:nth-of-type(3){
+	padding: 8px;
+    background: rgba( 0, 0, 0, 0.2 );
+}
+.buy-body-left>select{
+	margin-top: 5px;
+	width: 238px;
+	height: 40px;
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid #000;
+	box-shadow: 1px 1px 0px #45556c;
+	line-height: 40px;
+	color: #fff;
+	font-size: 14px;
+	background-color: #0b1d2a;
+	cursor: pointer;
+}
+.buy-body-left>select>option{
+	background-color: #417a9b;
+}
+.buy-body-left>select:hover{
+	    background: linear-gradient( -60deg, #417a9b 5%,#67c1f5 95%);
+}
+.buy-body-left>span{
+	padding: 0px 15px;
+	font-size: 16px;
+	line-height: 30px;
+	margin-top: 20px;
+	background-color: #607904;
+	color: #D2E885;
+	border-radius: 2px;
+	cursor: pointer;
+}
+.buy-body-left>span:hover{
+    background: rgba(164,208,7,1);
+    color: #fff;
+}
+.buy-body-right{
+	width: 282px;
+	background: rgba( 0, 0, 0, 0.2 );
+}
+.buy-body-right>h2{
+	color: #fff;
+	font-weight: 400;
+	padding: 0 12px;
+    line-height: 32px;
+}
+.pay-type>p{
+	margin-left: 0;
+}
+.pay-type>img{
+	margin-top: 5px;
+}
+.pay-type{
+	border-top: 1px solid #28394d;
+    border-radius: 2px;
+    padding: 16px;
+}
