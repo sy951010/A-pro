@@ -1,0 +1,81 @@
+.pay-body>div{
+	padding-top: 10px;
+	padding: 10px;
+    background: rgba( 0, 0, 0, 0.2 );
+}
+.zhifubao{
+	width: 616px;
+}
+.commdity{
+	padding: 10px;
+	border-bottom: 3px solid #173d57;
+}
+.commdity>img{
+	vertical-align: middle;
+	float: left;
+	margin-right: 10px;
+}
+.commdity>p>span{
+	float: right;
+
+}
+.commdity-price{
+	width: 230px;
+	padding: 10px;
+}
+.commdity-price>p>span{
+	float: right;
+	width: 50%;
+}
+.notice{
+	width: 280px;
+	padding: 12px;
+}
+.notice p{
+	margin-left: 0;
+	font-size: 13px;
+}
+.notice>h3{
+	font-size: 17px;
+    color: #fff;
+    font-weight: 400;
+	border-bottom: 1px solid silver;
+}
+.notice>h2{
+	padding: 8px;
+	line-height: 32px;
+	font-weight: 400;
+	border-bottom: 1px solid silver;
+	border-top: 1px solid silver;
+}
+.pay-mode{
+	margin-top: 120px;
+	padding: 10px 0;
+	border-top: 1px solid #194660;
+	border-bottom: 1px solid #194660;
+}
+.pay-mode a{
+	color: #fff;
+}
+.pay-mode a:hover{
+	color: #66c0f4;
+}
+.xiangbuchumingzia a{
+	color: #fff;
+}
+.xiangbuchumingzia a:hover{
+	color: #66c0f4;
+}
+.btn{
+	display: block;
+	padding: 5px 10px;
+	font-size: 16px;
+	float: right;
+	background: linear-gradient( to bottom, rgba(121,153,5,1) 5%, rgba(83,105,4,1) 95%);
+	color:  #D2E885;
+	border-radius: 3px;
+}
+.xiangbuchumingzia .btn:hover{
+	background: linear-gradient( to bottom, rgba(164,208,7,1) 5%, rgba(107,135,5,1) 95%);
+	color: #fff;
+}

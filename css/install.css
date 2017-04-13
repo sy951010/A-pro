@@ -1,0 +1,124 @@
+.welcome{
+	background:  url(../img/header.png) 0 0 repeat;
+}
+.welcome>div>div{
+	padding: 20px 0;
+}
+.welcome-install>div{
+	padding: 2px;
+	background: rgba( 58, 58, 58, 1.0 );
+    border-radius: 2px;
+    width: 50%;
+}
+.welcome-install>p{
+	margin-top: 10px;
+	margin-left: 0;
+	color: #c6d4df;
+    font-size: 12px;
+}
+.welcome-install>p>a{
+	color: #fff;
+	text-decoration: underline;
+}
+.welcome-install>p>a:hover{
+	color: #67c1f5;
+}
+.welcome-install>div>a{
+	display: block;
+	padding: 5px 15px;
+	font-size: 14px;
+	color: #fff;
+	background: linear-gradient( to bottom, #799905 5%, #536904 95%);
+	border-radius: 3px;
+}
+.welcome-install>div>a>img{
+	vertical-align: middle;
+	width: 26px;
+	height: 26px;
+	margin-right: 5px;
+}
+.welcome-install>div>p{
+	margin-left: 0;
+	color: #999;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 2px 8px 0 8px;
+}
+.state-list{
+	background:  url(../img/background.jpg) 0 0 repeat;
+}
+.state-one-f>div,.state-two-f>div{
+	width: 425px;
+	height: 240px;
+	padding: 18px;
+	background-color: #262626;
+	margin-top: 5px;
+	border-radius: 3px;
+}
+.state-two-f{
+	margin-top: 20px;
+}
+.state-thre-f{
+	margin-top: 20px;
+	background-color: #262626;
+	padding: 18px;
+	border-radius: 3px;
+}
+ .state-list h2{
+	font-weight: 300;
+    font-size: 18px;
+    color: #67c1f5;
+    padding: 0.7em 1em;
+    background:  url(../img/banner.png) 0 0 no-repeat;
+    -webkit-background-size: cover;
+    background-size: 100%;
+
+}
+ .state-text{
+	color: #c6d4df;
+	font-size: 14px;
+	position: relative;
+	height: 190px;
+   	} 
+   .state-text>a{
+   	position: absolute;
+   	left: 10px;
+   	bottom: 0px;
+   	color: #6bb3f2;
+   	font-size: 16px;
+   }
+   .state-thre-f>div>h2{
+   	width: 389px;
+   }
+   .state-thre-f>div>h4{
+   	width:415px;
+   	color: #999;
+   	font-weight: 400;
+   	font-size: 14px;
+   }
+   .state-thre-f>div>div>p{
+   	margin-left: 0;
+   }
+   .state-text>img{
+   	position: absolute;
+   	bottom: -15px;
+   	right:-182px;
+   }
+   .state-text a{
+   	color: #6bb3f2;
+   }
+   .state-four-f{
+   	margin-top: 20px;
+	padding: 80px 10px;
+   }
+   .state-four-f h1{
+   	color: #c6d4df;
+   }
+   .state-four-f>div>p{
+   	color: #c6d4df;
+    font-size: 12px;
+   }
+   .state-line{
+   	height: 100px;
+   	background-color: #1b2838;
+   }

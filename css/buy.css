@@ -105,7 +105,7 @@ body{
 .buy-body-left>select:hover{
 	    background: linear-gradient( -60deg, #417a9b 5%,#67c1f5 95%);
 }
-.buy-body-left>span{
+.buy-body-left>a{
 	padding: 0px 15px;
 	font-size: 16px;
 	line-height: 30px;
